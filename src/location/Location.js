@@ -1,4 +1,5 @@
 export const locations = [
+    {name: "-- Select City --"},
     {name:"İstanbul",
      lat:[41.015137,28.979530]
     },
@@ -15,7 +16,7 @@ export const locations = [
     lat: [40.977779,27.515278]
     },
     {name:"Adana",
-    lat: [37.000000,35.321335]
+    lat: [37.000001,35.321335]
     },
     {name:"Antalya",
     lat:[36.884804,30.704044]

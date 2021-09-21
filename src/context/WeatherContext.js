@@ -37,7 +37,9 @@ export const WeatherProvider= ({children})=>{
         //.then(res)
         
     }, [loca])
-    console.log(daily)
+    
+    // console.log(daily)
+    
     return (
         <WeatherContext.Provider value={values} className={styles.app}>
             {children}
