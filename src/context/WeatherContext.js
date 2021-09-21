@@ -10,7 +10,7 @@ export const WeatherProvider= ({children})=>{
   
     const [loca,setLoca] = useState([])
     const [daily, setDaily] = useState([])
-    const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${loca.slice(0,9)}&lon=${loca.slice(10,20)}&exclude=weekly&appid=a03f5795b168886ec75b7203ed0a4e3c`
+    const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${loca.slice(0,9)}&lon=${loca.slice(10,20)}&exclude=weekly&appid=902f1119b39ca076d49c060f4f1d8360`
     
     
      console.log(loca.slice(10,20))
